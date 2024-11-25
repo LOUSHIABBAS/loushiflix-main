@@ -148,6 +148,9 @@ margin-right: 30px;
     cursor: pointer;
 }
 
+.movie-list-container{
+    padding: 0 20px;
+}
 
 .movie-list{
     display: flex;
