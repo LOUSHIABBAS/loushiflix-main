@@ -125,6 +125,7 @@ margin-right: 30px;
 .featured-content{
     height: 50vh;
     padding: 50px;
+    margin-left: -20px;
 }
 
 .featured-title{
@@ -229,13 +230,13 @@ margin-right: 30px;
     transition: 1s all ease-in-out;
   }
   
- .arrow{
+  .arrow{
     font-size: 120px;
     position: absolute;
     top: 90px;
     right: 0;
     color: lightgrey;
-    opacity: 0.5;
+    opacity: .5;
  }
 
 
