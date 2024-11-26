@@ -125,7 +125,6 @@ margin-right: 30px;
 .featured-content{
     height: 50vh;
     padding: 50px;
-    margin-left: -20px;
 }
 
 .featured-title{
@@ -192,27 +191,29 @@ margin-right: 30px;
   }
   
   .movie-list-item-title {
-    background-color: #333;
+    background-color: grey;
+    color: white;
     padding: 0 10px;
-    font-size: 32px;
+    font-size: 15px;
     font-weight: bold;
     position: absolute;
     top: 10%;
-    left: 50px;
+    left: 20px;
     opacity: 0;
     transition: 1s all ease-in-out;
   }
   
   .movie-list-item-desc {
-    background-color: #333;
+    background-color: grey;
     padding: 10px;
     font-size: 14px;
     position: absolute;
     top: 30%;
-    left: 50px;
-    width: 230px;
+    left: 20px;
+    width: 270px;
     opacity: 0;
     transition: 1s all ease-in-out;
+    border: 20px;
   }
   
   .movie-list-item-button {
@@ -224,8 +225,8 @@ margin-right: 30px;
     border: none;
     cursor: pointer;
     position: absolute;
-    bottom: 20px;
-    left: 50px;
+    bottom: 5px;
+    left: 20px;
     opacity: 0;
     transition: 1s all ease-in-out;
   }
